@@ -32,17 +32,20 @@ h1{
 	min-width: 500px;
 }
 .main__img{
-	display: inline-block;
 	flex: 1 0 auto;
+	position: relative;
 	height: 300px;
 	border: 1px solid green;
+	overflow: hidden;
+	transition: 1s;
+	opacity: 1;
 }
 .main__img img{
-	
+	width: 300px;
+	position: absolute;
 }
 
 .main__info{
-	display: inline-block;
 	flex: 0 1 200px;
 	height: 300px;
 	border: 1px solid blue;
